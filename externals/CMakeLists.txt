@@ -84,7 +84,7 @@ endif()
 # PythonQt
 ExternalProject_Add(PythonQt
   GIT_REPOSITORY https://github.com/commontk/PythonQt.git
-  GIT_TAG 00e6c6b2
+  GIT_TAG b85ef8a8e45812daeb96ab1dbedbf2e3e36ad238
   CMAKE_CACHE_ARGS
     ${default_cmake_args}
     ${qt_args}
